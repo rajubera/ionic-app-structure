@@ -1,7 +1,12 @@
-# Sample app to show coding standards and code architecture
-I strictly follow the John Papa guidelines.
-   
-   ### file structure
+# Sample app to show coding structure and standards
+
+ - I strictly follow the John Papa guidelines while coding
+
+
+
+
+  
+  ### file structure
    
   
   
@@ -17,5 +22,7 @@ I strictly follow the John Papa guidelines.
 index.html
     ```
 
+
+    
 
     
