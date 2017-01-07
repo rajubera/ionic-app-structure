@@ -1,40 +1,7 @@
-# Project structure
-
- - Define 1 component per file.
-
-  The following example defines the `app` module and its dependencies, defines a controller, and defines a factory all in the same file.
-
-  ```javascript
-  /* recommended */
-
-  // app.module.js
-  angular
-      .module('app', ['ngRoute']);
-  ```
-
-  ```javascript
-  /* recommended */
-
-  // ChatDetailCtrl.js
-  angular
-      .module('app')
-      .controller('ChatDetailCtrl', ChatDetailCtrl);
-
-  function ChatDetailCtrl() { }
-  ```
-
-  ```javascript
-  /* recommended */
-
-  // someFactory.js
-  angular
-      .module('app')
-      .factory('Chats', chatDetailService);
-
-  function chatDetailService() { }
-  ```
-  
-  ### file structure
+# Sample app to show coding standards and code architecture
+I strictly follow the John Papa guidelines.
+   
+### file structure
    
   
   
